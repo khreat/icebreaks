@@ -68,6 +68,7 @@
 
         var $wrap = $(this);
         var $btnStart = $wrap.find("#btn-start");
+        var $btnStartt = $wrap.find("#re-roll");
         var $roulette_dol = $wrap.find(".roulette_dol");
         var wrapW = $wrap.width();
         var angle = o.angle;
@@ -118,6 +119,9 @@
 
 
         $btnStart.on("click", function() {
+          rotation();
+        });
+        $btnStartt.on("click", function() {
           rotation();
         });
 
