@@ -39,3 +39,4 @@ var $fastfood = ['용돈', '토익', '취업',
             $('#restaurant').text($randomRest);
             $('#dessert').text($randomDest);
         });
+
